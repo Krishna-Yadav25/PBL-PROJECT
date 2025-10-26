@@ -58,14 +58,3 @@ void print(HashMap *map) {
         printf("[%s : %d]\n", map->list[i]->key, map->list[i]->value);
     }
 }
-
-HashMap *demo;
-
-int main() {
-    demo = initialise();
-    insert(demo, "A");
-    insert(demo, "B");
-    insert(demo, "A");
-    insert(demo, "C");
-    return 0;
-}
