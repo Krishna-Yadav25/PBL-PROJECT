@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-// #include "map.h"
+#include "map.h"
 
 typedef struct Pair {
     char key[100];
